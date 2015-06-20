@@ -21,7 +21,7 @@ void ofApp::update(){
 void ofApp::draw(){
     ofBackground(0, 0, 0);
     ofColor(255,0,0);
-    ofCircle(320/2, 568/2, -ofxAccelerometer.getForce().z*100);
+    ofCircle(320.0/2, 568.0/2, -ofxAccelerometer.getForce().z*100);
     
     // printf("%f\n", -ofxAccelerometer.getForce().z*100);
 }
